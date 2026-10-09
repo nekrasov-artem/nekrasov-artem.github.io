@@ -46,12 +46,12 @@
 
 ## Публикация
 
-Сайт опубликован на GitHub Pages: https://artemnekras69-code.github.io/portfolio/
+Сайт опубликован на GitHub Pages: https://nekrasov-artem.github.io/
 
-Репозиторий: `git@github.com:artemnekras69-code/portfolio.git`. Pages собирает сайт из ветки `gh-pages`, поэтому после правок нужно отправить коммит в обе ветки:
+Репозиторий сайта: `git@github.com:nekrasov-artem/nekrasov-artem.github.io.git` (в git он подключён под именем `site`). Pages собирает сайт из ветки `main`, после правок достаточно отправить коммит:
 
 ```bash
-git push origin main main:gh-pages
+git push site main
 ```
 
 Если сайт переедет на другой адрес, поменяйте его в тегах `og:url` и `og:image` в начале `index.html`, иначе мессенджеры не покажут превью ссылки.
